@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/gotham-medium.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham";
+    background-color: #3F4E4F;
+    height: 100%;
+    color: #DCD7C9;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15%;
+    background-color: #2C3639;
+}
+
+.nav-logo img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links div {
+    padding: 0px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links div a {
+    text-decoration: none;
+    color: #DCD7C9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 5px 25px;
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    transition: all 0.1s linear;
+}
+
+.nav-links div a:hover {
+    font-size: 20px;
+    color: #A27B5C;
+    transition: all 0.1s linear;
+}
+
+.content {
+    background-color: #3F4E4F;
+    height: 80%;
+    padding: 0px 15%;
+    margin-top: 25px;
+}
+
+.project {
+    background-color: #2C3639;
+    width: 80%;
+    height: 200px;
+    border-radius: 25px;
+    padding: 25px 25px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 12px -7px rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+}
+
+.project-inline {
+    display: flex;
+    align-items: center;
+}
+
+.project a {
+    color: #A27B5C;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.project a:hover {
+    color: #DCD7C9;
+    text-decoration: underline;
+    transition: all 0.1s linear;
+}
+
+.footer {
+    width: auto;
+    text-align: center;
+    padding: 25px 0px;
+}
